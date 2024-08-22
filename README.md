@@ -1,1 +1,1 @@
-# Html-CSS-js
+# js-practices
