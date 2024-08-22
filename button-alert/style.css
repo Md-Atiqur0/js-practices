@@ -1,0 +1,19 @@
+*{
+    padding: 5px;
+    margin: 0px;
+}
+.button_container{
+    background-color: beige;
+}
+.add_to_bag{
+    margin-left: 100px;
+    background-color: lightgreen;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+}
+.wishlist{
+    margin-left: 100px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
