@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:rgb(200, 207, 207);
+}
+.button_container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: beige;
+}
+.button_container .add_bag{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: lightgreen;
+}
+.button_container .move_wishlist{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 50px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+.button_container .add_sale_item{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: lightgreen;
+}
+#cart-summary{
+    text-align: center;
+    padding-top: 20px;
+}
