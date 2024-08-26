@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function</title>
+</head>
+<body>
+    <script>
+        function driverStatus(){
+            let age=10;
+            let status;
+            if (age === undefined){
+                status = `you are alean.`;
+            }else if (age>18){
+                status= `you can drive.`;
+            }else{
+                status = `you can not drive.`;
+            }
+            return status;
+        }
+        console.log(driverStatus());
+    </script>
+</body>
+</html>
