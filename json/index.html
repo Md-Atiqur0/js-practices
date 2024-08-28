@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>json</title>
+</head>
+<body>
+    <script>
+        let product = {
+            company: 'mango',
+            price: 861,
+            item: 'T-shart',
+        }
+        console.log(product);
+        let str = JSON.stringify(product);
+        console.log(str);
+        let copyProduct = JSON.parse(str);
+        console.log(copyProduct);
+    </script>
+</body>
+</html>
